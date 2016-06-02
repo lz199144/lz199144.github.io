@@ -1,11 +1,16 @@
 <!doctype html>
-<html class="theme-next use-motion theme-next-mist">
-<head>
+
+
+
   
 
-<meta charset="UTF-8"/>
+
+<html class="theme-next muse use-motion">
+<head>
+  <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
 
 
 <meta http-equiv="Cache-Control" content="no-transform" />
@@ -18,67 +23,115 @@
 
 
 
-  <link rel="stylesheet" type="text/css" href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5"/>
 
 
 
 
-<link rel="stylesheet" type="text/css" href="/css/main.css?v=0.4.5.1"/>
-
-
-    <meta name="description" content="我的时代尚未到来,有的人死后方生。" />
-
-
-
-  <meta name="keywords" content="Hexo,next" />
+  
+  
+  <link href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
 
 
 
 
+  
+  
+  
+  
 
-  <link rel="shorticon icon" type="image/x-icon" href="/favicon.ico?v=0.4.5.1" />
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.0.1" />
+
+
+
+
 
 
 <meta name="description" content="个人信息
 刘钊/男/1991
-本科：河海大学通信工程, 2010.6-2014.6, 3.7/4.0
-硕士：香港科技大学MSc, 2014.6-2015.6, 3.7/4.3
-Github: http://github.com/lz199144
-期望职位：后端，图像，C++，Python
-期望薪资：月薪10k以上，特别喜欢的公司可例外
-手机：13632903316
-Email：liuzhao44@">
+籍贯： 河南焦作
+本科： 河海大学通信工程, 2010.6-2014.6, 3.7/4.0
+硕士： 香港科技大学MSc, 2014.6-2015.6, 3.7/4.3
+Github:  http://github.com/lz199144
+期望职位： 图形学，图像算法，计算机视觉相关，游戏开发，计算机视觉相关
+手机： 13632903316
+Email： liuzha">
 <meta property="og:type" content="website">
-<meta property="og:title" content="about">
-<meta property="og:url" content="http://yoursite.com/about/index.html">
+<meta property="og:title" content="Jason LZ">
+<meta property="og:url" content="http://yoursite.com/about/about.html">
 <meta property="og:site_name" content="Jason LZ">
 <meta property="og:description" content="个人信息
 刘钊/男/1991
-本科：河海大学通信工程, 2010.6-2014.6, 3.7/4.0
-硕士：香港科技大学MSc, 2014.6-2015.6, 3.7/4.3
-Github: http://github.com/lz199144
-期望职位：后端，图像，C++，Python
-期望薪资：月薪10k以上，特别喜欢的公司可例外
-手机：13632903316
-Email：liuzhao44@">
-<meta property="og:updated_time" content="2015-09-19T06:33:48.088Z">
+籍贯： 河南焦作
+本科： 河海大学通信工程, 2010.6-2014.6, 3.7/4.0
+硕士： 香港科技大学MSc, 2014.6-2015.6, 3.7/4.3
+Github:  http://github.com/lz199144
+期望职位： 图形学，图像算法，计算机视觉相关，游戏开发，计算机视觉相关
+手机： 13632903316
+Email： liuzha">
+<meta property="og:updated_time" content="2016-06-02T16:54:18.892Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="about">
+<meta name="twitter:title" content="Jason LZ">
 <meta name="twitter:description" content="个人信息
 刘钊/男/1991
-本科：河海大学通信工程, 2010.6-2014.6, 3.7/4.0
-硕士：香港科技大学MSc, 2014.6-2015.6, 3.7/4.3
-Github: http://github.com/lz199144
-期望职位：后端，图像，C++，Python
-期望薪资：月薪10k以上，特别喜欢的公司可例外
-手机：13632903316
-Email：liuzhao44@">
+籍贯： 河南焦作
+本科： 河海大学通信工程, 2010.6-2014.6, 3.7/4.0
+硕士： 香港科技大学MSc, 2014.6-2015.6, 3.7/4.3
+Github:  http://github.com/lz199144
+期望职位： 图形学，图像算法，计算机视觉相关，游戏开发，计算机视觉相关
+手机： 13632903316
+Email： liuzha">
+
 
 
 <script type="text/javascript" id="hexo.configuration">
+  var NexT = window.NexT || {};
   var CONFIG = {
-    scheme: 'Mist',
-    sidebar: 'post'
+    scheme: 'Muse',
+    sidebar: {"position":"left","display":"post"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: 0,
+      author: '博主'
+    }
   };
 </script>
 
@@ -86,40 +139,45 @@ Email：liuzhao44@">
   
 
   
-    about | Jason LZ
+     | Jason LZ
   
 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
 
-  <!--[if lte IE 8]>
-  <div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;margin:0 auto;'>
-    <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
-      <img src="http://7u2nvr.com1.z0.glb.clouddn.com/picouterie.jpg" border="0" height="42" width="820"
-           alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today or use other browser ,like chrome firefox safari."
-           style='margin-left:auto;margin-right:auto;display: block;'/>
-    </a>
-  </div>
-<![endif]-->
   
 
 
 
-  <div class="container one-column ">
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left  ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><h1 class="site-meta">
-  <span class="logo-line-before"><i></i></span>
-  <a href="/" class="brand" rel="start">
-      <span class="logo">
-        <i class="icon-next-logo"></i>
-      </span>
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
       <span class="site-title">Jason LZ</span>
-  </a>
-  <span class="logo-line-after"><i></i></span>
-</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle"></p>
+</div>
 
 <div class="site-nav-toggle">
   <button>
@@ -133,28 +191,24 @@ Email：liuzhao44@">
   
 
   
-    <ul id="menu" class="menu ">
+    <ul id="menu" class="menu">
       
         
         <li class="menu-item menu-item-home">
           <a href="/" rel="section">
-            <i class="menu-item-icon icon-next-home"></i> <br />
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
             首页
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-categories">
-          <a href="/categories" rel="section">
-            <i class="menu-item-icon icon-next-categories"></i> <br />
-            分类
           </a>
         </li>
       
         
         <li class="menu-item menu-item-about">
           <a href="/about" rel="section">
-            <i class="menu-item-icon icon-next-about"></i> <br />
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
             关于
           </a>
         </li>
@@ -162,7 +216,9 @@ Email：liuzhao44@">
         
         <li class="menu-item menu-item-archives">
           <a href="/archives" rel="section">
-            <i class="menu-item-icon icon-next-archives"></i> <br />
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
             归档
           </a>
         </li>
@@ -170,7 +226,9 @@ Email：liuzhao44@">
         
         <li class="menu-item menu-item-tags">
           <a href="/tags" rel="section">
-            <i class="menu-item-icon icon-next-tags"></i> <br />
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
             标签
           </a>
         </li>
@@ -178,13 +236,14 @@ Email：liuzhao44@">
         
         <li class="menu-item menu-item-commonweal">
           <a href="/404.html" rel="section">
-            <i class="menu-item-icon icon-next-commonweal"></i> <br />
+            
+              <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br />
+            
             公益404
           </a>
         </li>
       
 
-      
       
     </ul>
   
@@ -197,45 +256,88 @@ Email：liuzhao44@">
 
     <main id="main" class="main">
       <div class="main-inner">
-        <div id="content" class="content"> 
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
 
   <div id="posts" class="posts-expand">
     
     
       <h2 id="个人信息">个人信息</h2><ul>
 <li>刘钊/男/1991</li>
-<li>本科：河海大学通信工程, 2010.6-2014.6, 3.7/4.0</li>
-<li>硕士：香港科技大学MSc, 2014.6-2015.6, 3.7/4.3</li>
-<li>Github: <a href="http://github.com/lz199144" target="_blank" rel="external">http://github.com/lz199144</a></li>
-<li>期望职位：后端，图像，C++，Python</li>
-<li>期望薪资：月薪10k以上，特别喜欢的公司可例外</li>
-<li>手机：13632903316</li>
-<li>Email：liuzhao44@qq.com</li>
+<li>籍贯： 河南焦作</li>
+<li>本科： 河海大学通信工程, 2010.6-2014.6, 3.7/4.0</li>
+<li>硕士： 香港科技大学MSc, 2014.6-2015.6, 3.7/4.3</li>
+<li>Github:  <a href="http://github.com/lz199144" target="_blank" rel="external">http://github.com/lz199144</a></li>
+<li>期望职位： 图形学，图像算法，计算机视觉相关，游戏开发，计算机视觉相关</li>
+<li>手机： 13632903316</li>
+<li>Email： liuzhao44@qq.com</li>
+<li>QQ：709753489 微信：liuzhao44</li>
+<li>英语水平： CET6：500+  雅思:6.5</li>
 </ul>
-<h2 id="工作经历">工作经历</h2><ul>
+<h2 id="实习工作经历">实习工作经历</h2><ul>
 <li>公司: 深圳市观梦科技有限公司</li>
-<li>时间: 2015年6月至今 </li>
-<li>职位: C++图像算法工程师</li>
+<li>时间: 2015年6月至2015年12月</li>
+<li><p>职位: C++图像算法实习生</p>
+</li>
+<li><p>公司: 深圳市妙智科技有限公司</p>
+</li>
+<li>时间: 2015年12月至今</li>
+<li>职位: 软件开发工程师（图形图像方向）</li>
 </ul>
 <h2 id="技能清单">技能清单</h2><h4 id="编程语言">编程语言</h4><ul>
-<li>熟练掌握<code>C++面向对象编程</code>,深入理解<code>STL</code>常用方法及基本的<code>泛型编程</code>,了解<code>C++11标准</code>,熟悉<code>Opencv</code>，<code>Boost</code>等常用C++第三方库;</li>
-<li>了解<code>Javascript+HTML+CSS</code>基本的前端技术,了解网站开发基本的前后端知识;</li>
-<li>了解<code>Python</code>语法和基本库,能够利用Python写一些简单的脚本和爬虫程序。</li>
+<li><code>C++</code>: 熟练掌握<code>C++面向对象编程</code>,深入理解<code>STL</code>常用方法及基本的<code>泛型编程</code>,了解<code>C++11标准</code>,熟悉<code>Boost</code>等常用C++第三方库．</li>
+<li><code>C#</code>: 熟练掌握C#编程基本语法，.NET开发环境以及WPF界面开发，熟悉MVVM的界面开发模式和流程．</li>
+<li><code>Python</code>: 熟悉<code>Python</code>语法和基本库,能够利用Python写一些基本的脚本和爬虫程序，以及基本的科学计算以及ML算法．</li>
+<li>｀Javascript｀: 熟悉<code>JS</code>基本语法，基本的前端知识，利用现有框架做一些web端的图形编程和处理，以及简单的Nodejs后台．</li>
 </ul>
-<h4 id="计算机基础">计算机基础</h4><ul>
-<li>基本掌握<code>&lt;Introduction to Algorithms&gt;</code>上简单的数据结构和算法,能够独立解决<code>LeetCode</code>上中等难度的算法题目;</li>
-<li>熟悉<code>Linux</code>下基本的操作,熟悉<code>CMake</code>，<code>Makefile</code>等自动化编译工具，熟悉<code>git</code>的基本使用和版本管理方法;</li>
-<li>熟悉基本的<code>socket</code>编程,了解<code>TCP/IP</code>协议基本知识,通读<code>&lt;UNIX网络编程&gt;</code>。</li>
+<h4 id="专业技能">专业技能</h4><ul>
+<li><code>算法与数据结构</code>： 基本掌握<code>&lt;Introduction to Algorithms&gt;</code>上简单的数据结构和算法,能够独立解决<code>LeetCode</code>上中等难度的算法题目．</li>
+<li><code>Linux</code>： 熟悉<code>Linux</code>下基本的操作和指令,熟悉gcc编译指令,熟悉<code>CMake</code>，<code>Makefile</code>等自动化编译工具，熟悉<code>git</code>的基本使用和版本<br>管理方法，以及简单的shell编程．</li>
+<li><code>计算机图形学</code>： 熟悉<code>计算机图形学</code>基础知识，熟悉基本的<code>OpenGL</code>编程，了解Shader语言，熟练使用开源可视化工具VTK，熟悉OGRE渲染引<br>擎，了解Unity3D和Unreal图形引擎．</li>
+<li>｀图像处理｀： 熟悉基本的图像处理算法，熟悉信号处理的基本数学知识，能够熟练使用第三方工具进行常规的图像处理，能够独立开发简单的图像<br>算法．</li>
+<li><code>计算机视觉</code>： 熟练掌握<code>OpenCV</code>中基本模块的使用，来实现一些基本的图形或视觉算法；了解PCL库，以及点云和Mesh的处理方法;了解SFM和<br>SLAM的基本算法流程和前沿研究成果．</li>
+<li><code>机器学习</code>： 熟练掌握机器学习中基础数学知识，熟悉常见模式识别和学习算法的概念，流程等基本知识．</li>
+<li><code>其他技能</code>： C++ＡＭＰ并行编程，简单的CUDA程序和并行算法设计。</li>
 </ul>
-<h2 id="公司项目">公司项目</h2><h4 id="三维重建">三维重建</h4><ul>
-<li>简介: 利用<code>SFM</code>(Structure Form Motion)技术，通过一些2D图片进行处理，得到三维点云信息，进而处理成为Mesh文件，经过后期处理、纹理、渲染，得到一个非常逼真的三维模型。</li>
-<li>职责: 开源代码的二次开发，主要用到<a href="http://ccwu.me/vsfm/" target="_blank" rel="external">VisualSFM</a>中部分技术，以及<a href="https://github.com/nmoehrle/mvs-texturing" target="_blank" rel="external">MVS texture</a>的部分技术,并将这些项目的部分算法加入到公司项目的pipeline中，已经完成。</li>
+<h2 id="公司项目">公司项目</h2><h4 id="医疗VR平台(涉及公司机密只是简单说明)">医疗VR平台(涉及公司机密只是简单说明)</h4><ul>
+<li>简介: 利用三维重建，图形算法，图像处理做的一个医疗图像三维ＶＲ模式下的图形交互平台．</li>
 </ul>
-<h4 id="增强现实(AR)框架">增强现实(AR)框架</h4><ul>
-<li>简介: 此项目按照论文<a href="http://www.icg.tugraz.at/Members/thanh/publications/ptamm-plus-refactoring-and-extending-ptamm-1" target="_blank" rel="external">PTAMM-PLUS</a>中描述的基本思路，以开源经典算法<a href="https://github.com/Oxford-PTAM/PTAM-GPL" target="_blank" rel="external">PTAM</a>、<a href="https://github.com/anuranbaka/OpenDTAM" target="_blank" rel="external">OpenDTAM</a>为算法基础，实现一个AR项目的框架。</li>
-<li>职责: 本人负责这个项目PTAM和DTAM中代码的重构,目前正在开发。</li>
+<h4 id="VR图像AR拍摄工具">VR图像AR拍摄工具</h4><ul>
+<li>简介: 为了拍摄VR图像的真实立体效果，用简单的计算机视觉算法做的简单的AR工具，从而可以通过摄像头捕捉真实世界和VR视觉的重叠效果．</li>
 </ul>
-<h2 id="个人项目">个人项目</h2><h4 id="大型运动会竞赛信息交换平台的研究">大型运动会竞赛信息交换平台的研究</h4><ul>
+<h4 id="三维重建">三维重建</h4><ul>
+<li>简介: 利用<code>SFM</code>(Structure Form Motion)技术进行物体的三维重建，主要步骤为图像捕捉，相机参数标定，Sift特征匹配，生成三维点云，去噪和Mesh化，纹理提取和粘贴。</li>
+<li>开发环境： Linux下C++开发，主要用到的库有OpenCV，PCL，Boost等。</li>
+<li>职责: 开源代码的二次开发，主要用到<a href="http://ccwu.me/vsfm/" target="_blank" rel="external">VisualSFM</a>中部分技术（SiftGPU），以及<a href="https://github.com/nmoehrle/mvs-texturing" target="_blank" rel="external">MVS texture</a>的部分技术（纹理相关）,并将这些项目的部分算法加入到公司项目的pipeline中，已经完成。</li>
+</ul>
+<h4 id="SLAM算法移植开发">SLAM算法移植开发</h4><ul>
+<li>简介: 本项目是利用SLAM（Simultaneous Localization and Mapping）技术实现增强现实的方案，主要是利用SLAM算法的实时Tracking and Mapping来实现无标记AR。<br>主要参考的开源项目有经典算法<a href="https://github.com/Oxford-PTAM/PTAM-GPL" target="_blank" rel="external">PTAM</a>、<a href="https://github.com/anuranbaka/OpenDTAM" target="_blank" rel="external">OpenDTAM</a>，<a href="https://github.com/tum-vision/lsd_slam" target="_blank" rel="external">LSD-SLAM</a>、<a href="https://github.com/raulmur/ORB_SLAM" target="_blank" rel="external">ORB-SLAM</a>。主要的算法涉及相机参数标定，特征提取算法，并行Track and Map，<br>深度信息计算，实时渲染等。</li>
+<li>开发环境： Linux下C++开发，主要用到的库有OpenCV，PCL，Boost等。</li>
+<li>职责: 本人负责SLAM相关算法的移植和二次开发。</li>
+</ul>
+<h4 id="基于PTAM和OGRE的AR游戏">基于PTAM和OGRE的AR游戏</h4><ul>
+<li>简介： 利用<a href="https://github.com/Oxford-PTAM/PTAM-GPL" target="_blank" rel="external">PTAM</a>的实时跟踪算法，在OGRE游戏引擎框架下开发一个AR场景游戏，能够实现游戏人物在一个平面上自由移动。<br>并最后能够移植到手机上。</li>
+<li>开发环境： Linux下C++开发，主要用到的库是OGRE游戏引擎和部分OpenGL的函数。</li>
+<li>职责： 本人负责整个项目Linux下的实现。</li>
+</ul>
+<h2 id="个人项目">个人项目</h2><h4 id="全景相机浏览器">全景相机浏览器</h4><ul>
+<li>开发语言: Javascript</li>
+<li>主要内容: 在web做一个简单的全景视频浏览的播放器，主要用到three.js作为基本的渲染引擎工具，通过一些简单的图像拼接技术，达到360°图像浏览<br>的作用，加入ＩＭＵ判断，方便做自由适配，并加入双目效果．</li>
+</ul>
+<h4 id="Face_Alienment">Face Alienment</h4><ul>
+<li>开发语言: C++</li>
+<li>主要内容: 利用开源项目<a href="https://github.com/luoyetx/face-alignment-at-3000fps" target="_blank" rel="external">Face-Alienment-at-3000fps</a>，作为主要学习算法<br>进行alienment, 输入为摄像头，通过CascadeClassifier分类器得到预处理人脸图像，并用训练好的程序进行处理最后得到人脸轮廓点集并画在相应人脸<br>的位置，最后代码作为JNI调用配合朋友利用在了Andriod应用程序上．</li>
+</ul>
+<h4 id="人脸识别">人脸识别</h4><ul>
+<li>开发语言： Matlab</li>
+<li>主要内容： Pattern Recognition课程大作业，利用BP-神经网络和K-means算法的结合，进行人脸的分类和识别。用ORL数据库，识别率达到90%。<br>主要思路是部分数据作为训练样本建立PCA人脸特征空间，并训练BP-神经网络，在利用部分数据进行Validation和测试，误差较大的测试结果再和K-means算法<br>进行交叉比较以提高识别正确率。</li>
+</ul>
+<h4 id="数据挖掘">数据挖掘</h4><ul>
+<li>开发语言和工具： Python、Gephi</li>
+<li>主要内容： Social Network课程大作业，利用新浪微博OAuth2.0的Python API挖取新浪微博热门微博的转发、评论、点赞以及相关用户资料的信息，<br>研究热门微博的一些特性。本人负责数据挖取代码部分。</li>
+</ul>
+<h4 id="大型运动会竞赛信息交换平台的研究">大型运动会竞赛信息交换平台的研究</h4><ul>
 <li>开发语言：C#，XML</li>
 <li>项目简介：隶属于河海大学计算机学院沈阳全运会成绩信息系统平台子项目，目的是建立信息交换平台与各赛事成绩系统之间通信协议的制定和接口的实现。</li>
 <li>个人职责：参与多项通信协议的制定，编写协议文档和XML文件协议格式，以及交换平台部分代码。</li>
@@ -246,26 +348,37 @@ Email：liuzhao44@">
 <li>个人职责：独立开发</li>
 </ul>
 <h4 id="基于Hadoop的分布式爬虫设计">基于Hadoop的分布式爬虫设计</h4><ul>
-<li>开发平台：Linux + Hadoop</li>
+<li>开发平台：Linux， Hadoop</li>
 <li>项目简介：建立一个四台电脑的Hadoop集群，简单实现并行爬虫的设计。</li>
 <li>个人职责：独立开发</li>
+</ul>
+<h2 id="其他资料">其他资料</h2><h4 id="个人评价">个人评价</h4><ul>
+<li>较强的数理能力和逻辑思维能力，自学能力强，快速上手新技能</li>
+<li>抗压能力强，乐于接受挑战，乐观自信</li>
+<li>乐于交流和分享，善于沟通和团队协作</li>
+</ul>
+<h4 id="兴趣爱好">兴趣爱好</h4><ul>
+<li>喜欢各种球类运动，热爱足球、爬山等户外活动</li>
+<li>喜欢读书，偏好文史</li>
 </ul>
 
     
   </div>
 
- </div>
 
-        
-
-        
-          <div class="comments" id="comments">
-            
           </div>
-        
-      </div>
+          
 
-      
+
+          
+  <div class="comments" id="comments">
+    
+  </div>
+
+
+        </div>
+        
+          
   
   <div class="sidebar-toggle">
     <div class="sidebar-toggle-line-wrap">
@@ -280,12 +393,16 @@ Email：liuzhao44@">
 
       
 
-      <section class="site-overview">
+      
+
+      <section class="site-overview sidebar-panel  sidebar-panel-active ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <img class="site-author-image" src="/profile.jpg" alt="jasonlz" itemprop="image"/>
+          <img class="site-author-image" itemprop="image"
+               src="/profile.jpg"
+               alt="jasonlz" />
           <p class="site-author-name" itemprop="name">jasonlz</p>
+          <p class="site-description motion-element" itemprop="description">我的时代尚未到来,有的人死后方生。</p>
         </div>
-        <p class="site-description motion-element" itemprop="description">我的时代尚未到来,有的人死后方生。</p>
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
@@ -294,19 +411,16 @@ Email：liuzhao44@">
             </a>
           </div>
 
-          <div class="site-state-item site-state-categories">
-            <a href="/categories">
-              <span class="site-state-item-count">0</span>
-              <span class="site-state-item-name">分类</span>
-              </a>
-          </div>
+          
 
-          <div class="site-state-item site-state-tags">
-            <a href="/tags">
-              <span class="site-state-item-count">0</span>
-              <span class="site-state-item-name">标签</span>
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-name">标签</span>
               </a>
-          </div>
+            </div>
+          
 
         </nav>
 
@@ -316,19 +430,39 @@ Email：liuzhao44@">
           
             
               <span class="links-of-author-item">
-                <a href="https://github.com/lz199144" target="_blank">GitHub</a>
+                <a href="https://github.com/lz199144" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
               </span>
             
               <span class="links-of-author-item">
-                <a href="http://weibo.com/lz199144" target="_blank">Weibo</a>
+                <a href="http://weibo.com/lz199144" target="_blank" title="Weibo">
+                  
+                    <i class="fa fa-fw fa-weibo"></i>
+                  
+                  Weibo
+                </a>
               </span>
             
               <span class="links-of-author-item">
-                <a href="http://www.douban.com/people/LZ_Thirteen/" target="_blank">DouBan</a>
+                <a href="http://www.douban.com/people/LZ_Thirteen/" target="_blank" title="DouBan">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                  DouBan
+                </a>
               </span>
             
               <span class="links-of-author-item">
-                <a href="http://www.zhihu.com/people/jasonlz" target="_blank">ZhiHu</a>
+                <a href="http://www.zhihu.com/people/jasonlz" target="_blank" title="ZhiHu">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                  ZhiHu
+                </a>
               </span>
             
           
@@ -343,9 +477,8 @@ Email：liuzhao44@">
           </div>
         
 
-        <div class="links-of-author motion-element">
-          
-        </div>
+        
+        
 
       </section>
 
@@ -355,15 +488,18 @@ Email：liuzhao44@">
   </aside>
 
 
+        
+      </div>
     </main>
 
     <footer id="footer" class="footer">
-      <div class="footer-inner"> <div class="copyright" >
+      <div class="footer-inner">
+        <div class="copyright" >
   
-  &copy; &nbsp; 
-  <span itemprop="copyrightYear">2015</span>
+  &copy; 
+  <span itemprop="copyrightYear">2016</span>
   <span class="with-love">
-    <i class="icon-next-heart"></i>
+    <i class="fa fa-heart"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">jasonlz</span>
 </div>
@@ -375,75 +511,97 @@ Email：liuzhao44@">
 <div class="theme-info">
   主题 -
   <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Mist
+    NexT.Muse
   </a>
 </div>
 
+        
 
- </div>
+        
+      </div>
     </footer>
 
-    <div class="back-to-top"></div>
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
   </div>
 
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
   <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
 
   
-  
-  
-    
-    
-
-  
-
-
-  
-  
-  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js"></script>
-  <script type="text/javascript" src="/js/fancy-box.js?v=0.4.5.1"></script>
-
-
-  <script type="text/javascript" src="/js/helpers.js?v=0.4.5.1"></script>
-  
-
-  <script type="text/javascript" src="/vendors/velocity/velocity.min.js"></script>
-  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js"></script>
-
-  <script type="text/javascript" src="/js/motion_global.js?v=0.4.5.1" id="motion.global"></script>
-
-
-
-
-  <script type="text/javascript" src="/js/nav-toggle.js?v=0.4.5.1"></script>
   <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
 
   
+  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
 
-  <script type="text/javascript">
-    $(document).ready(function () {
-      if (CONFIG.sidebar === 'always') {
-        displaySidebar();
-      }
-      if (isMobile()) {
-        FastClick.attach(document.body);
-      }
-    });
-  </script>
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.min.js?v=1.2.1"></script>
 
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.0.1"></script>
+
+
+
+  
   
 
   
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.0.1"></script>
+
+
+
+  
+
+
+
+  
+
+
+
+
+  
+  
   
 
   
-  <script type="text/javascript" src="/js/lazyload.js"></script>
-  <script type="text/javascript">
-    $(function () {
-      $("#posts").find('img').lazyload({
-        placeholder: "/images/loading.gif",
-        effect: "fadeIn"
-      });
-    });
-  </script>
+
+  
+
 </body>
 </html>
